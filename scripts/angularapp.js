@@ -1,8 +1,8 @@
 (function(){
 	var app = angular.module('auction_app', []);
 	
-	app.controller('AuctionController', function(){
+	app.controller('AuctionsController', function(){
 		this.houses = houses;
 	});
-	 
+	
 })();
